@@ -37,6 +37,16 @@ section p.date {
     color: gray;
 }
 
+section h1.judul {
+    color: black;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out;
+}
+
+section h1.judul:hover {
+    color: #f5d04e;
+}
+
 section div {
     display: flex;
     gap: 10px;
